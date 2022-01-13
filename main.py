@@ -44,9 +44,29 @@ def battery(device_type, device_id):
     for i in range(0, 8):
         threads[i].start()
     
+def fc(device_type, device_id):
+    gene_job = generator()
+    running = threading.Event()
+    running.set()
+    threads = []
+    c4_interval = config_get("device_scope_interval", "fc_c4")
+    c5_interval = config_get("device_scope_interval", "fc_c5")
+    threads.append(threading.Thread(target = generator.fc_instance, args = (gene_job, device_type, device_id, c4_interval,)))
+    threads.append(threading.Thread(target = generator.fc_accumulate, args = (gene_job, device_type, device_id, c5_interval,)))
+    for i in range(0, 2):
+        threads[i].start()    
     
-    
-    
+def pdb(device_type, device_id):
+    gene_job = generator()
+    running = threading.Event()
+    running.set()
+    threads = []
+    c0_interval = config_get("device_scope_interval", "pdb_c0")
+    c1_interval = config_get("device_scope_interval", "pdb_c1") 
+    threads.append(threading.Thread(target = generator.pdb_accumulate, args = (gene_job, device_type, device_id, "pdb_cumu_normal", c0_interval)))
+    threads.append(threading.Thread(target = generator.pdb_accumulate, args = (gene_job, device_type, device_id, "pdb_cumu_reverse", c1_interval)))
+    for i in range(0, 2):
+        threads[i].start()
         
 if __name__ == '__main__':
     argv = sys.argv[1:]
@@ -56,3 +76,7 @@ if __name__ == '__main__':
         pv(task, device_id)
     elif task == 'battery':  
         battery(task, device_id)
+    elif task == 'fc':
+        fc(task, device_id)
+    elif task == 'pdb':
+        pdb(task, device_id)
