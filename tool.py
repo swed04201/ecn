@@ -42,14 +42,24 @@ def write_log_file(insert_data):
     f.close()
     
 def verify_init_value_isexist(task, scope):
-    if config.has_option(task,scope) is True:
-        print("already has init value")
-    elif config.has_option(task, scope) is False:
-        print("config add ->session: {} key: {}".format(task, scope))
-        config_set(task, scope, "400")
-        print("write complete")
+    if config.has_section(task) is True:
+        # section exist
+        if config.has_option(task, scope) is True:
+            # key exsit
+            print("#Already has init value")
+        else:
+            # key not exist
+            print("#Config add ->session: {} key: {}".format(task, scope))
+            config_set(task, scope, "400")
     else:
-        pass
+        # section not exist
+        print("#Create a new section")
+        print("#Config add ->session: {} key: {}".format(task, scope))
+        config_set_section(task)
+        config_set(task, scope, "400")
+
+def config_set_section(section):
+    config.add_section(section)
 
 def config_set(session, scope, value):
     config.set(session, scope, value)
