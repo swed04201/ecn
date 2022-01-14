@@ -1,4 +1,4 @@
-Scopes:
+Devices Scopes:
 ################################################################################################################
 Battery:
 A4: AC chargeable electric energy													interval: 5 mins
