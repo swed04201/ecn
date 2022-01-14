@@ -20,6 +20,7 @@ def send_request(str_url, str_data):
     response = requests.put(str_url, json = {"edt": str_data}, headers = headers)
     res = response.json()
     print(res)
+    
 def log_title():
     date_time = now.strftime("%Y/%m/%d %H:%M:%S.%f")
     title = "Start from " + date_time
@@ -29,8 +30,6 @@ def result(int_data, int_start_data):
     today_total = str(int_data - int_start_data)
     today_final = str(int(today_total, 16))
     msg = str(datetime.datetime.now()) +  " today from :{} today total: {} to int: {}".format(int_start_data, (int_data - int_start_data), today_final) + "\n"
-    #print(datetime.datetime.now(), "today from :{} today total: {} to int: {}".format(int_start_data, (int_data - int_start_data), today_final))
-
     return msg
 
 def write_log_file(insert_data):
