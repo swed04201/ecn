@@ -7,7 +7,6 @@ Created on Jan 8, 2022
 import random
 import time
 from tool import result, write_log_file, config_set, config_get, send_request, verify_init_value_isexist
-from mysql.connector.cursor import _bytestr_format_dict
 
 class generator():
     def __init__(self):
