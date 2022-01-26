@@ -18,13 +18,11 @@ class generator():
         while(True):
             int_now_hour = int(datetime.datetime.now().strftime('%H'))
             if int_now_hour >= start_time and int_now_hour < end_time:
-                print("into if")
                 str_value = str(random.randrange(0, 1000))
                 str_data = str_value.zfill(4)
                 send_request(str_url, str_data)
                 print("Sleep for {} secs!!!".format(sleep_time))
             elif int_now_hour < start_time or int_now_hour >= end_time:
-                print("into elif")
                 str_value = str(0)
                 str_data = str_value.zfill(4)
                 send_request(str_url, str_data)
