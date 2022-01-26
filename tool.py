@@ -32,6 +32,7 @@ def result(int_data, int_start_data):
     today_total = str(int_data - int_start_data)
     today_final = str(int(today_total, 16))
     msg = str(datetime.datetime.now()) +  " today from :{} today total: {} to int: {}".format(int_start_data, (int_data - int_start_data), today_final) + "\n"
+    Logger('Result', 'INFO', msg)
     return msg
 
 def write_log_file(insert_data):

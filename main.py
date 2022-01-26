@@ -18,7 +18,7 @@ def pv(device_type, device_id):
     e1_interval = config_get("device_scope_interval", "pv_e1")
     threads.append(threading.Thread(target = generator.pv_instance, args = (gene_job, device_type, device_id, e0_interval,)))
     threads.append(threading.Thread(target = generator.accumulate, args = (gene_job, device_type, device_id, "pv_cumulative", e1_interval,)))
-    for i in range(0, 2):
+    for i in range(len(threads)):
         threads[i].start()
 
 def battery(device_type, device_id):
@@ -42,7 +42,7 @@ def battery(device_type, device_id):
     threads.append(threading.Thread(target = generator.accumulate, args = (gene_job, device_type, device_id, "battery_cumu_char_elec_eneg", d6_interval)))
     threads.append(threading.Thread(target = generator.accumulate, args = (gene_job, device_type, device_id, "battery_cumu_dischar_elec_eneg", d8_interval)))
     threads.append(threading.Thread(target = generator.accumulate, args = (gene_job, device_type, device_id, "battery_elec_1", e2_interval)))
-    for i in range(0, 8):
+    for i in range(len(threads)):
         threads[i].start()
     
 def fc(device_type, device_id):
@@ -54,7 +54,7 @@ def fc(device_type, device_id):
     c5_interval = config_get("device_scope_interval", "fc_c5")
     threads.append(threading.Thread(target = generator.fc_instance, args = (gene_job, device_type, device_id, c4_interval,)))
     threads.append(threading.Thread(target = generator.accumulate, args = (gene_job, device_type, device_id, "fc_cumulative", c5_interval,)))
-    for i in range(0, 2):
+    for i in range(len(threads)):
         threads[i].start()    
     
 def pdb(device_type, device_id):
@@ -66,7 +66,7 @@ def pdb(device_type, device_id):
     c1_interval = config_get("device_scope_interval", "pdb_c1") 
     threads.append(threading.Thread(target = generator.accumulate, args = (gene_job, device_type, device_id, "pdb_cumu_normal", c0_interval)))
     threads.append(threading.Thread(target = generator.accumulate, args = (gene_job, device_type, device_id, "pdb_cumu_reverse", c1_interval)))
-    for i in range(0, 2):
+    for i in range(len(threads)):
         threads[i].start()
         
 if __name__ == '__main__':

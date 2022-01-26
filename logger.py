@@ -17,7 +17,8 @@ def Logger(type, level, msg):
     bol_file_msg = True
     
     debug_level = 'DEBUG' 
-    str_log_format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    #str_log_format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    str_log_format = "%(asctime)s - %(process)d:%(thread)d - [%(levelname)s][%(name)s] %(message)s" 
     # Debug log levels: DEBUG,INFO,WARNING,ERROR,CRITICAL
     if not bol_debug:
         obj_root_logger.disabled = True
