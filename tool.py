@@ -8,6 +8,7 @@ import os
 import datetime
 import configparser
 import requests
+from logger import Logger
 
 now = datetime.datetime.now()
 config = configparser.ConfigParser()
@@ -20,6 +21,7 @@ def send_request(str_url, str_data):
     response = requests.put(str_url, json = {"edt": str_data}, headers = headers)
     res = response.json()
     print(res)
+    Logger('Request', 'INFO', res)
     
 def log_title():
     date_time = now.strftime("%Y/%m/%d %H:%M:%S.%f")

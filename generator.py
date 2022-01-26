@@ -20,6 +20,7 @@ class generator():
             str_data = str_value.zfill(4)
             send_request(str_url, str_data)
             print("Sleep for {} secs!!!".format(sleep_time))
+            
             time.sleep(int(sleep_time))
 
     def battery_instance(self, device_type, device_no, sleep_time):
@@ -68,5 +69,6 @@ class generator():
     
         
 if __name__ == '__main__':
-    job = generator()
-    job.pv_e0(2, 1)
+    #job = generator()
+    #job.pv_e0(2, 1)
+    pass

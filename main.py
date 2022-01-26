@@ -8,6 +8,7 @@ import threading, sys
 from tool import config_get, verify_init_value_isexist
 from generator import generator
 
+
 def pv(device_type, device_id):
     gene_job = generator()
     running = threading.Event()
