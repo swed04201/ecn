@@ -19,14 +19,11 @@ class generator():
             int_now_hour = int(datetime.datetime.now().strftime('%H'))
             if int_now_hour >= start_time and int_now_hour < end_time:
                 str_value = str(random.randrange(0, 1000))
-                str_data = str_value.zfill(4)
-                send_request(str_url, str_data)
-                print("Sleep for {} secs!!!".format(sleep_time))
             elif int_now_hour < start_time or int_now_hour >= end_time:
                 str_value = str(0)
-                str_data = str_value.zfill(4)
-                send_request(str_url, str_data)
-                print("Sleep for {} secs!!!".format(sleep_time))    
+            str_data = str_value.zfill(4)
+            send_request(str_url, str_data)
+            print("Sleep for {} secs!!!".format(sleep_time))    
             time.sleep(int(sleep_time))
             
     def battery_instance(self, device_type, device_no, sleep_time):
