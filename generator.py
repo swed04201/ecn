@@ -7,8 +7,8 @@ Created on Jan 8, 2022
 import random
 import time, datetime
 from tool import result, write_log_file, config_set, config_get, send_request, verify_init_value_isexist
-start_time = 4
-end_time = 20
+start_time = 12
+end_time = 17
 class generator():
     def __init__(self):
         pass
@@ -45,7 +45,7 @@ class generator():
             time.sleep(int(sleep_time))    
 
     
-    def accumulate(self, device_type, device_no, scope, sleep_time):
+    """def accumulate(self, device_type, device_no, scope, sleep_time):
         epc = config_get("device_epc", scope)
         scope = device_no + "_" + config_get("device_epc", scope)
         verify_init_value_isexist(device_type, scope)
@@ -64,10 +64,40 @@ class generator():
             write_log_file(msg)
             config_set(device_type, str_device_scope, str(int_data))         
             print("Sleep for {} secs!!!".format(sleep_time))
-            time.sleep(int(sleep_time))
+            time.sleep(int(sleep_time))"""
     
-    
-    
+    def accumulate(self, device_type, device_no, scope, sleep_time):
+        epc = config_get("device_epc", scope)
+        scope = device_no + "_" + config_get("device_epc", scope)
+        verify_init_value_isexist(device_type, scope)
+        config_value = device_type + "_url"
+        str_url = config_get("api_info", config_value).format(device_no, epc)
+        str_device_scope = device_no + "_" + epc
+        int_start_data = int(config_get(device_type, str_device_scope))
+        int_data = int_start_data
+        while(True):
+            int_now_hour = int(datetime.datetime.now().strftime('%H'))
+            if int_now_hour >= start_time and int_now_hour < end_time:
+                str_data = str(int_data)
+                str_format_data = str_data.zfill(8)
+                int_data = int_data + random.randrange(400, 2000, 400)
+                send_request(str_url, str_format_data)
+                msg = "Device: {} EPC: {} --> ".format(device_type, epc)
+                msg = msg + result(int_data, int_start_data)
+                write_log_file(msg)
+                config_set(device_type, str_device_scope, str(int_data))         
+                print("Sleep for {} secs!!!".format(sleep_time))
+                time.sleep(int(sleep_time))
+            elif int_now_hour < start_time or int_now_hour >= end_time:
+                str_data = str(config_get(device_type, str_device_scope))
+                str_format_data = str_data.zfill(8)
+                send_request(str_url, str_format_data)
+                msg = "Device: {} EPC: {} --> ".format(device_type, epc)
+                msg = msg + result(int_data, int_start_data)
+                write_log_file(msg)
+                config_set(device_type, str_device_scope, str(int_data))         
+                print("Sleep for {} secs!!!".format(sleep_time))
+                time.sleep(int(sleep_time))
     
     
         

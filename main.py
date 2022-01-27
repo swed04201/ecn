@@ -7,6 +7,9 @@ Created on Jan 8, 2022
 import threading, sys
 from tool import config_get, verify_init_value_isexist
 from generator import generator
+import configparser, os
+from logger import Logger
+
 
 
 def pv(device_type, device_id):
@@ -70,7 +73,49 @@ def pdb(device_type, device_id):
         threads[i].start()
         
 if __name__ == '__main__':
-    argv = sys.argv[1:]
+    setup_config = configparser.ConfigParser()
+    str_setup_config_path = os.path.join(os.getcwd(), "ini", "run.ini")
+    setup_config.read(str_setup_config_path)
+    
+    battery_instance = setup_config.get("battery", "instance")
+    battery_run = setup_config.get("battery", "run")
+    
+    pv_instance = setup_config.get("pv", "instance")
+    pv_run = setup_config.get("pv", "run")
+    
+    pdb_instance = setup_config.get("pdb", "instance")
+    pdb_run = setup_config.get("pdb", "run")
+    
+    fc_instance = setup_config.get("fc", "instance")
+    fc_run = setup_config.get("fc", "run")
+    
+    
+    
+    if battery_run == 'y':
+        Logger('RUN', 'INFO', 'battery init...')
+        battery('battery', battery_instance)
+    else:
+        pass
+    if pv_run == 'y':
+        Logger('RUN', 'INFO', 'pv init...')
+        pv('pv', pv_instance)
+    else:
+        pass
+    if pdb_run == 'y':
+        Logger('RUN', 'INFO', 'pdb init...')
+        pdb('pdb', pdb_instance)
+    else:
+        pass
+    if fc_run == 'y':
+        Logger('RUN', 'INFO', 'fc init...')
+        fc('fc', fc_instance)
+    else:
+        pass
+    
+    
+    
+    
+    """argv = sys.argv[1:]
     device_id = argv[1]
     task = argv[0]
     if task == 'pv':  
@@ -80,4 +125,4 @@ if __name__ == '__main__':
     elif task == 'fc':
         fc(task, device_id)
     elif task == 'pdb':
-        pdb(task, device_id)
+        pdb(task, device_id)"""
