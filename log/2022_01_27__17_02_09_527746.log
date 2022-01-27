@@ -1,0 +1,251 @@
+2022-01-27 17:02:09,529 - 19048:13380 - [INFO][RUN] battery init...
+2022-01-27 17:02:09,534 - 19048:13380 - [INFO][RUN] pv init...
+2022-01-27 17:02:09,534 - 19048:13380 - [INFO][RUN] pv init...
+2022-01-27 17:02:09,545 - 19048:13380 - [INFO][RUN] pdb init...
+2022-01-27 17:02:09,545 - 19048:13380 - [INFO][RUN] pdb init...
+2022-01-27 17:02:09,545 - 19048:13380 - [INFO][RUN] pdb init...
+2022-01-27 17:02:09,548 - 19048:13380 - [INFO][RUN] fc init...
+2022-01-27 17:02:09,548 - 19048:13380 - [INFO][RUN] fc init...
+2022-01-27 17:02:09,548 - 19048:13380 - [INFO][RUN] fc init...
+2022-01-27 17:02:09,548 - 19048:13380 - [INFO][RUN] fc init...
+2022-01-27 17:02:09,569 - 19048:6092 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/E4', 'params': {'edt': '37'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,569 - 19048:16716 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/02790A/epcs/E0', 'params': {'edt': '0000'}, 'result': 0, 'code': 200, 'data': {'changed': {'E0': '0000'}}}
+2022-01-27 17:02:09,569 - 19048:16716 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/02790A/epcs/E0', 'params': {'edt': '0000'}, 'result': 0, 'code': 200, 'data': {'changed': {'E0': '0000'}}}
+2022-01-27 17:02:09,569 - 19048:8788 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/028701/epcs/C0', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,569 - 19048:16716 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/02790A/epcs/E0', 'params': {'edt': '0000'}, 'result': 0, 'code': 200, 'data': {'changed': {'E0': '0000'}}}
+2022-01-27 17:02:09,569 - 19048:8788 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/028701/epcs/C0', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,569 - 19048:8788 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/028701/epcs/C0', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,570 - 19048:8788 - [INFO][Result] 2022-01-27 17:02:09.570652 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,572 - 19048:10440 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027C01/epcs/C4', 'params': {'edt': '0585'}, 'result': 0, 'code': 200, 'data': {'changed': {'C4': '0585'}}}
+2022-01-27 17:02:09,572 - 19048:10440 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027C01/epcs/C4', 'params': {'edt': '0585'}, 'result': 0, 'code': 200, 'data': {'changed': {'C4': '0585'}}}
+2022-01-27 17:02:09,572 - 19048:10440 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027C01/epcs/C4', 'params': {'edt': '0585'}, 'result': 0, 'code': 200, 'data': {'changed': {'C4': '0585'}}}
+2022-01-27 17:02:09,572 - 19048:10440 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027C01/epcs/C4', 'params': {'edt': '0585'}, 'result': 0, 'code': 200, 'data': {'changed': {'C4': '0585'}}}
+2022-01-27 17:02:09,714 - 19048:18480 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,714 - 19048:18480 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,714 - 19048:18480 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,714 - 19048:18480 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,714 - 19048:18480 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,715 - 19048:18480 - [INFO][Result] 2022-01-27 17:02:09.715266 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,715 - 19048:18480 - [INFO][Result] 2022-01-27 17:02:09.715266 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,717 - 19048:11792 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027C01/epcs/C5', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,717 - 19048:11792 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027C01/epcs/C5', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,717 - 19048:11792 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027C01/epcs/C5', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,717 - 19048:11792 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027C01/epcs/C5', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,717 - 19048:11792 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027C01/epcs/C5', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,717 - 19048:11792 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027C01/epcs/C5', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,717 - 19048:11792 - [INFO][Result] 2022-01-27 17:02:09.717260 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,717 - 19048:1528 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/02790A/epcs/E1', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,717 - 19048:1528 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/02790A/epcs/E1', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,717 - 19048:1528 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/02790A/epcs/E1', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,718 - 19048:11628 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/028701/epcs/C1', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,718 - 19048:11628 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/028701/epcs/C1', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,717 - 19048:1528 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/02790A/epcs/E1', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,718 - 19048:11628 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/028701/epcs/C1', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,717 - 19048:11792 - [INFO][Result] 2022-01-27 17:02:09.717260 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,718 - 19048:11628 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/028701/epcs/C1', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,717 - 19048:11792 - [INFO][Result] 2022-01-27 17:02:09.717260 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,717 - 19048:1528 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/02790A/epcs/E1', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,717 - 19048:1528 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/02790A/epcs/E1', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,718 - 19048:11628 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/028701/epcs/C1', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,717 - 19048:1528 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/02790A/epcs/E1', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,718 - 19048:11628 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/028701/epcs/C1', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,717 - 19048:1528 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/02790A/epcs/E1', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,718 - 19048:11628 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/028701/epcs/C1', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,718 - 19048:11628 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/028701/epcs/C1', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,719 - 19048:1528 - [INFO][Result] 2022-01-27 17:02:09.719290 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,719 - 19048:1528 - [INFO][Result] 2022-01-27 17:02:09.719290 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,719 - 19048:1528 - [INFO][Result] 2022-01-27 17:02:09.719290 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,719 - 19048:11628 - [INFO][Result] 2022-01-27 17:02:09.719290 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,719 - 19048:1528 - [INFO][Result] 2022-01-27 17:02:09.719290 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,719 - 19048:11628 - [INFO][Result] 2022-01-27 17:02:09.719290 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,719 - 19048:1528 - [INFO][Result] 2022-01-27 17:02:09.719290 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,719 - 19048:11628 - [INFO][Result] 2022-01-27 17:02:09.719290 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,719 - 19048:11628 - [INFO][Result] 2022-01-27 17:02:09.719290 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,719 - 19048:11628 - [INFO][Result] 2022-01-27 17:02:09.719290 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,812 - 19048:16700 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/E2', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,812 - 19048:16700 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/E2', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,812 - 19048:16700 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/E2', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,812 - 19048:16700 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/E2', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,812 - 19048:16700 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/E2', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,812 - 19048:16700 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/E2', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,812 - 19048:16700 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/E2', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,812 - 19048:16700 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/E2', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,812 - 19048:16700 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/E2', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,813 - 19048:16700 - [INFO][Result] 2022-01-27 17:02:09.813011 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,813 - 19048:16700 - [INFO][Result] 2022-01-27 17:02:09.813011 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,813 - 19048:16700 - [INFO][Result] 2022-01-27 17:02:09.813011 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,813 - 19048:16700 - [INFO][Result] 2022-01-27 17:02:09.813011 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,813 - 19048:16700 - [INFO][Result] 2022-01-27 17:02:09.813011 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,813 - 19048:16700 - [INFO][Result] 2022-01-27 17:02:09.813011 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,917 - 19048:876 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A9', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,917 - 19048:876 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A9', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,917 - 19048:876 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A9', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,917 - 19048:876 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A9', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,917 - 19048:876 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A9', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,917 - 19048:876 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A9', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,917 - 19048:876 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A9', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,917 - 19048:876 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A9', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,917 - 19048:876 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A9', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,917 - 19048:876 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A9', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,920 - 19048:876 - [INFO][Result] 2022-01-27 17:02:09.919721 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,920 - 19048:876 - [INFO][Result] 2022-01-27 17:02:09.919721 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,920 - 19048:876 - [INFO][Result] 2022-01-27 17:02:09.919721 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,920 - 19048:876 - [INFO][Result] 2022-01-27 17:02:09.919721 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,920 - 19048:876 - [INFO][Result] 2022-01-27 17:02:09.919721 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,920 - 19048:876 - [INFO][Result] 2022-01-27 17:02:09.919721 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,920 - 19048:876 - [INFO][Result] 2022-01-27 17:02:09.919721 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,925 - 19048:21004 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A5', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,925 - 19048:21004 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A5', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,925 - 19048:21004 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A5', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,925 - 19048:21004 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A5', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,925 - 19048:21004 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A5', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,925 - 19048:21004 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A5', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,925 - 19048:21004 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A5', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,925 - 19048:21004 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A5', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,925 - 19048:21004 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A5', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,925 - 19048:21004 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A5', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,925 - 19048:21004 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A5', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,926 - 19048:21004 - [INFO][Result] 2022-01-27 17:02:09.926699 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,926 - 19048:21004 - [INFO][Result] 2022-01-27 17:02:09.926699 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,926 - 19048:21004 - [INFO][Result] 2022-01-27 17:02:09.926699 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,926 - 19048:21004 - [INFO][Result] 2022-01-27 17:02:09.926699 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,926 - 19048:21004 - [INFO][Result] 2022-01-27 17:02:09.926699 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,926 - 19048:21004 - [INFO][Result] 2022-01-27 17:02:09.926699 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,926 - 19048:21004 - [INFO][Result] 2022-01-27 17:02:09.926699 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,926 - 19048:21004 - [INFO][Result] 2022-01-27 17:02:09.926699 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,927 - 19048:13784 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A4', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,927 - 19048:13784 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A4', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,927 - 19048:13784 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A4', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,927 - 19048:13784 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A4', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,927 - 19048:13784 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A4', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,927 - 19048:13784 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A4', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,927 - 19048:13784 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A4', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,927 - 19048:13784 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A4', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,927 - 19048:13784 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A4', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,927 - 19048:13784 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A4', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,927 - 19048:13784 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A4', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,927 - 19048:13784 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A4', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,929 - 19048:13784 - [INFO][Result] 2022-01-27 17:02:09.929194 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,929 - 19048:13784 - [INFO][Result] 2022-01-27 17:02:09.929194 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,929 - 19048:13784 - [INFO][Result] 2022-01-27 17:02:09.929194 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,929 - 19048:13784 - [INFO][Result] 2022-01-27 17:02:09.929194 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,929 - 19048:13784 - [INFO][Result] 2022-01-27 17:02:09.929194 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,929 - 19048:13784 - [INFO][Result] 2022-01-27 17:02:09.929194 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,929 - 19048:13784 - [INFO][Result] 2022-01-27 17:02:09.929194 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,929 - 19048:13784 - [INFO][Result] 2022-01-27 17:02:09.929194 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,929 - 19048:13784 - [INFO][Result] 2022-01-27 17:02:09.929194 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,931 - 19048:280 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D6', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,931 - 19048:280 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D6', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,931 - 19048:280 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D6', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,931 - 19048:280 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D6', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,931 - 19048:280 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D6', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,931 - 19048:280 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D6', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,931 - 19048:280 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D6', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,931 - 19048:280 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D6', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,931 - 19048:280 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D6', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,931 - 19048:280 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D6', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,931 - 19048:280 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D6', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,931 - 19048:280 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D6', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,931 - 19048:280 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/D6', 'params': {'edt': '00000400'}, 'result': 1, 'code': 500, 'message': 'Faild to save the file: C:\\elemu_20200609\\elemu\\data\\state_027D0B.json (File locked)'}
+2022-01-27 17:02:09,934 - 19048:280 - [INFO][Result] 2022-01-27 17:02:09.933176 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,934 - 19048:280 - [INFO][Result] 2022-01-27 17:02:09.933176 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,934 - 19048:280 - [INFO][Result] 2022-01-27 17:02:09.933176 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,934 - 19048:280 - [INFO][Result] 2022-01-27 17:02:09.933176 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,934 - 19048:280 - [INFO][Result] 2022-01-27 17:02:09.933176 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,934 - 19048:13276 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,934 - 19048:280 - [INFO][Result] 2022-01-27 17:02:09.933176 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,934 - 19048:13276 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,934 - 19048:280 - [INFO][Result] 2022-01-27 17:02:09.933176 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,934 - 19048:13276 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,934 - 19048:280 - [INFO][Result] 2022-01-27 17:02:09.933176 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,934 - 19048:13276 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,934 - 19048:280 - [INFO][Result] 2022-01-27 17:02:09.933176 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,934 - 19048:13276 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,934 - 19048:280 - [INFO][Result] 2022-01-27 17:02:09.933176 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,934 - 19048:13276 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,934 - 19048:13276 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,934 - 19048:13276 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,934 - 19048:13276 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,934 - 19048:13276 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,934 - 19048:13276 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,934 - 19048:13276 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,934 - 19048:13276 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,934 - 19048:13276 - [INFO][Request] {'method': 'PUT', 'path': '/api/device/eojs/027D0B/epcs/A8', 'params': {'edt': '00000400'}, 'result': 0, 'code': 200, 'data': {'changed': {}}}
+2022-01-27 17:02:09,936 - 19048:13276 - [INFO][Result] 2022-01-27 17:02:09.936167 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,936 - 19048:13276 - [INFO][Result] 2022-01-27 17:02:09.936167 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,936 - 19048:13276 - [INFO][Result] 2022-01-27 17:02:09.936167 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,936 - 19048:13276 - [INFO][Result] 2022-01-27 17:02:09.936167 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,936 - 19048:13276 - [INFO][Result] 2022-01-27 17:02:09.936167 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,936 - 19048:13276 - [INFO][Result] 2022-01-27 17:02:09.936167 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,936 - 19048:13276 - [INFO][Result] 2022-01-27 17:02:09.936167 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,936 - 19048:13276 - [INFO][Result] 2022-01-27 17:02:09.936167 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,936 - 19048:13276 - [INFO][Result] 2022-01-27 17:02:09.936167 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,936 - 19048:13276 - [INFO][Result] 2022-01-27 17:02:09.936167 today from :400 today total: 0 to int: 0
+
+2022-01-27 17:02:09,936 - 19048:13276 - [INFO][Result] 2022-01-27 17:02:09.936167 today from :400 today total: 0 to int: 0
+

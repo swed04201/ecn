@@ -1,0 +1,11 @@
+Device: pdb EPC: C0 --> 2022-01-27 17:02:09.570652 today from :400 today total: 0 to int: 0
+Device: battery EPC: D8 --> 2022-01-27 17:02:09.715266 today from :400 today total: 0 to int: 0
+Device: fc EPC: C5 --> 2022-01-27 17:02:09.717260 today from :400 today total: 0 to int: 0
+Device: pv EPC: E1 --> 2022-01-27 17:02:09.719290 today from :400 today total: 0 to int: 0
+Device: pdb EPC: C1 --> 2022-01-27 17:02:09.719290 today from :400 today total: 0 to int: 0
+Device: battery EPC: E2 --> 2022-01-27 17:02:09.813011 today from :400 today total: 0 to int: 0
+Device: battery EPC: A9 --> 2022-01-27 17:02:09.919721 today from :400 today total: 0 to int: 0
+Device: battery EPC: A4 --> 2022-01-27 17:02:09.929194 today from :400 today total: 0 to int: 0
+Device: battery EPC: A5 --> 2022-01-27 17:02:09.926699 today from :400 today total: 0 to int: 0
+Device: battery EPC: D6 --> 2022-01-27 17:02:09.933176 today from :400 today total: 0 to int: 0
+Device: battery EPC: A8 --> 2022-01-27 17:02:09.936167 today from :400 today total: 0 to int: 0
