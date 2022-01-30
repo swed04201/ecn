@@ -21,7 +21,7 @@ def send_request(str_url, str_data):
     response = requests.put(str_url, json = {"edt": str_data}, headers = headers)
     res = response.json()
     print(res)
-    Logger('Request', 'INFO', res)
+    #Logger('Request', 'INFO', res)
     
 def log_title():
     date_time = now.strftime("%Y/%m/%d %H:%M:%S.%f")
@@ -32,7 +32,7 @@ def result(int_data, int_start_data):
     today_total = str(int_data - int_start_data)
     today_final = str(int(today_total, 16))
     msg = str(datetime.datetime.now()) +  " today from :{} today total: {} to int: {}".format(int_start_data, (int_data - int_start_data), today_final) + "\n"
-    Logger('Result', 'INFO', msg)
+    #Logger('Result', 'INFO', msg)
     return msg
 
 def write_log_file(insert_data):
@@ -42,25 +42,6 @@ def write_log_file(insert_data):
     lines = insert_data
     f.writelines(lines)
     f.close()
-    
-"""def verify_init_value_isexist(task, scope):
-    if config.has_section(task) is True:
-        # section exist
-        if config.has_option(task, scope) is True:
-            # key exsit
-            print("#Already has init value")
-        else:
-            # key not exist
-            print("#Config add ->session: {} key: {}".format(task, scope))
-            config_set(task, scope, "400")
-    elif config.has_section(task) is False:
-        # section not exist
-        print("#Create a new section: ", task)
-        print("#Config add ->session: {} key: {}".format(task, scope))
-        config_set_section(task)
-        config_set(task, scope, "400")
-    else:
-        print("============ERROR============")"""
         
 def verify_init_value_isexist(task, scope):
     if config.has_section(task) is True:
