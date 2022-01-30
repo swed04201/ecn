@@ -22,3 +22,5 @@ PV:
 E0: Measured instantaneous amount of electricity generated							interval: 1 mins
 E1: Measured cumulative amount of electric energy generated							interval: 5 mins
 ################################################################################################################
+
+Environment dev TEST!!
